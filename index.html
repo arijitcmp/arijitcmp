@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Arijit PAtra, a web developer passionate about creating clean and efficient websites.</p>
+        <p>Date of Birth   : 18/02/2003 <br>
+            Marital Status : Single<br>
+            Nationality    : Indian <br>
+            Religion       : Hindu<br>
+            Gender         : Male<br>
+            Occupation     : Student </p>
+    </section>
+
+    <section id="project">
+        <h2>Project</h2>
+        <div class="project">
+            <p>Portfolio website</p>
+            <p>Personal Project</p>
+            <p>Technologies: HTML, CSS, JavaScript</p>
+            <p>Developed a responsive portfolio website to showcase personal projects and skills.</p>
+            <p>Utilized HTML for structure, CSS for styling, and JavaScript for form handling and interactivity.
+            </p>
+            <p>Designed a clean and user-friendly interface that highlights work experience and projects.</p>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="success-message" style="display:none;">Your message has been sent successfully!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
